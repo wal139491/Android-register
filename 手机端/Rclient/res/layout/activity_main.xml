@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+     <TextView
+         android:id="@+id/myview"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="26dp"
+         android:gravity="center_horizontal"
+         android:text="@string/title"
+         android:textSize="45sp" />
+
+     <Button
+         android:id="@+id/kbutton"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/cha"
+         android:layout_marginLeft="39dp"
+         android:text="@string/kankebiao"
+         android:background="#9AFF9A"
+         
+         />
+
+     <EditText
+         android:id="@+id/edit"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/myview"
+         android:layout_marginTop="24dp"
+         android:background="@android:drawable/editbox_background"
+         android:ems="10" >
+
+         <requestFocus />
+     </EditText>
+
+     <TextView
+         android:id="@+id/tv2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/edit"
+         android:layout_alignBottom="@+id/edit"
+         android:layout_alignParentLeft="true"
+         android:layout_toLeftOf="@+id/edit"
+         android:text="@string/sip"
+         android:textSize="26sp" />
+
+     <Button
+         android:id="@+id/bt1"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_below="@+id/bt2"
+         android:layout_toRightOf="@+id/cha"
+         android:text="@string/tbtn"
+         android:background="#B93B8F"
+         android:layout_margin="1dp"
+        />
+
+     <Button
+         android:id="@+id/tongbtn"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_alignLeft="@+id/bt1"
+         android:layout_below="@+id/bt1"
+         android:text="@string/tongzhi"
+         android:background="#F6358A"
+         
+          />
+
+     <Button
+         android:id="@+id/cha"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_alignRight="@+id/kbutton"
+         android:layout_below="@+id/bt2"
+         android:layout_margin="2dp"
+         android:layout_marginRight="14dp"
+         android:background="#FDD017"
+         android:text="@string/chaxun" />
+
+     <Button
+         android:id="@+id/bt2"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/edit"
+         android:layout_centerHorizontal="true"
+         android:layout_margin="3dp"
+         android:text="@string/obtn"
+      
+          />
+    
+</RelativeLayout>

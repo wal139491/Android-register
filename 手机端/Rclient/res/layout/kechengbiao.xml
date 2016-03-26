@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TableLayout
+            android:id="@+id/timetable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableRow android:gravity="center" >
+
+                <Button
+                    android:id="@+id/week_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F8FF"
+                    android:gravity="center"
+                    android:text="@string/week"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:gravity="center" >
+
+                <Button
+                    android:id="@+id/first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F8FF"
+                    android:gravity="center"
+                    android:text="@string/ojie"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow android:gravity="center" >
+
+                <Button
+                    android:id="@+id/second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F8FF"
+                    android:gravity="center"
+                    android:text="@string/tjie"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow android:gravity="center" >
+
+                <Button
+                    android:id="@+id/third"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F8FF"
+                    android:gravity="center"
+                    android:text="@string/fjie"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow android:gravity="center" >
+
+                <Button
+                    android:id="@+id/fourth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F8FF"
+                    android:gravity="center"
+                    android:text="@string/sjie"
+                    android:textSize="20sp" />
+            </TableRow>
+             <TableRow android:gravity="center" >
+
+                <Button
+                    android:id="@+id/fifth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F0F8FF"
+                    android:gravity="center"
+                    android:text="@string/njie"
+                    android:textSize="20sp" />
+            </TableRow>
+        </TableLayout>
+
+         <HorizontalScrollView
+             android:id="@+id/scrollPicker"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:scrollbarStyle="outsideInset" >
+
+            <TableLayout
+                android:id="@+id/schooltimetable1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableRow android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/monday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#F0F8FF"
+                        android:gravity="center"
+                        android:text="@string/mon"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/tuesday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#F0F8FF"
+                        android:gravity="center"
+                        android:text="@string/tue"
+                     
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/wednesday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#F0F8FF"
+                        android:gravity="center"
+                        android:text="@string/wed"
+                        
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/thursday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#F0F8FF"
+                        android:gravity="center"
+                        android:text="@string/thu"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/friday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#F0F8FF"
+                        android:gravity="center"
+                        android:text="@string/fri"
+                      
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/saturday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#F0F8FF"
+                        android:gravity="center"
+                        android:text="@string/str"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/sunday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#F0F8FF"
+                        android:gravity="center"
+                        android:text="@string/sun"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/mon_first"
+                        android:background="#FFF0F5"
+                        android:textSize="12sp"
+                        android:layout_margin="1dip" />
+                    <Button
+                        android:id="@+id/tues_first"
+                        android:background="#FFF0F5"
+                      android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/wed_first"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/thurs_first"
+                        android:background="#FFF0F5"
+                         android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/fri_first"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sat_first"
+                        android:background="#FFF0F5"
+                         android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sun_first"
+                        android:background="#FFF0F5"
+                         android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+                </TableRow>
+
+                <TableRow android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/mon_second"
+                       android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/tues_second"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/wed_second"
+                        android:background="#FFF0F5" 
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/thurs_second"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/fri_second"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sat_second"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sun_second"
+                       android:background="#FFF0F5"
+                       android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+                </TableRow>
+
+                <TableRow android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/mon_third"
+                        android:background="#FFF0F5"
+                         android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/tues_third"
+                        android:background="#FFF0F5"
+                         android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/wed_third"
+                      android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/thurs_third"
+                        android:background="#FFF0F5"
+                       android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/fri_third"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sat_third"
+                        android:background="#FFF0F5"
+                       android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sun_third"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+                </TableRow>
+
+                <TableRow android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/mon_fourth"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/tues_fourth"
+                        android:background="#FFF0F5"
+                       android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/wed_fourth"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/thurs_fourth"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/fri_fourth"
+                        android:background="#FFF0F5"
+                     android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sat_fourth"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sun_fourth"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+                </TableRow>
+                 <TableRow android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/mon_fifth"
+                        android:layout_margin="1dip" 
+                       android:background="#FFF0F5"
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/tues_fifth"
+                      android:background="#FFF0F5"
+                      android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/wed_fifth"
+                        android:background="#FFF0F5"
+                      android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/thurs_fifth"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/fri_fifth"
+                        android:background="#FFF0F5"
+                       android:layout_margin="1dip" 
+                        android:textSize="12sp" >
+                    </Button>
+
+                    <Button
+                        android:id="@+id/sat_fifth"
+                         android:layout_margin="1dip" 
+                         android:background="#FFF0F5"
+                        android:textSize="12sp" />
+                  
+
+                    <Button
+                        android:id="@+id/sun_fifth"
+                        android:background="#FFF0F5"
+                        android:layout_margin="1dip" 
+                        android:textSize="12sp" />
+                  
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollPicker1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <Button
+                 android:id="@+id/kebiao"
+                  android:background="#F0F8FF"
+                   android:text="@string/kebiao"
+                  android:textSize="15sp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+              
+                />
+             </LinearLayout>
+    </ScrollView>
+</LinearLayout>

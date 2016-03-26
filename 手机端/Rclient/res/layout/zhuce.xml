@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+   
+    >
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title2"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dip"
+         />
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/label"
+        android:layout_margin="15dip"
+        android:text="@string/Sname"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/label1"
+        android:layout_alignTop="@id/label1"
+        android:background="@android:drawable/editbox_background"
+        android:singleLine="true"
+         />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/label1"
+        android:text="@string/Sno"
+        android:layout_margin="15dip"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_below="@id/edt1"
+        android:layout_toRightOf="@id/label2"
+        android:layout_alignTop="@id/label2"
+        android:background="@android:drawable/editbox_background"
+        android:singleLine="true"
+         />
+
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/label2"
+        android:layout_margin="15dip"
+        android:text="@string/Smajor"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+         android:layout_below="@id/edt2"
+        android:layout_alignTop="@id/label3"
+        android:layout_toRightOf="@id/label3"
+        android:background="@android:drawable/editbox_background"
+        android:singleLine="true"
+         />
+
+    <TextView
+        android:id="@+id/label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/label3"
+        android:layout_margin="15dip"
+        android:text="@string/Sgrade"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@id/edt3"
+         android:layout_marginLeft="10dip"
+        android:layout_alignTop="@id/label4"
+        android:layout_toRightOf="@id/label4"
+        android:background="@android:drawable/editbox_background"
+        android:singleLine="true"
+         />
+    <TextView
+        android:id="@+id/label5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/label4"
+        android:layout_margin="15dip"
+        android:text="@string/SIP"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+       android:text="@string/submit" />
+
+    <EditText
+        android:id="@+id/edt5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/label5"
+        android:layout_toRightOf="@+id/label4"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

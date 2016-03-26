@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机签到</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title2">编辑资料</string>
+    <string name="Sname">姓名</string>
+    <string name="Sno">学号</string>
+    <string name="Smobile">手机</string>
+    <string name="submit">注册</string>
+    <string name="Sgrade">年级</string>
+    <string name="Smajor">专业</string>
+    <string name="zhuce">注册</string>
+    <string name="title1">签到</string>
+    <string name="qiandao">手机签到</string>
+    <string name="zhuanye">注册</string>
+    <string name="obtn">签到</string>
+    <string name="title">手机签到</string>
+    <string name="tbtn">注册</string>
+    <string name="chaxun">签到查询</string>
+    <string name="hint">请输入服务端IP地址</string>
+    <string name="SIP">IP地址</string>
+    <string name="sip">服务端IP</string>
+    <string name="week">星期\n课次</string>
+    <string name="ojie">12节</string>
+    <string name="tjie">34节</string>
+    <string name="fjie">56节</string>
+    <string name="sjie">78节</string>
+    <string name="njie">910节</string>
+    <string name="mon">周一</string>
+    <string name="tue">周二</string>
+    <string name="wed">周三</string>
+    <string name="thu">周四</string>
+    <string name="fri">周五</string>
+    <string name="str">周六</string>
+    <string name="sun">周日</string>
+    <string name="kebiao">显示课表</string>
+    <string name="xueshengkebiao">学生课表</string>
+    <string name="kankebiao">查看课表</string>
+    <string name="riqi">输入通知日期</string>
+    <string name="dangtian">当天通知</string>
+    <string name="ritongzhi">查看通知</string>
+     <string name="tongzhi">课程通知</string>
+
+</resources>
